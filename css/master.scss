@@ -3,11 +3,13 @@
 @import 'variables.scss';
 
 .header{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
     background-image: url('../assets/images/header.png');
     background-repeat: no-repeat;
     background-size: cover;
     font-size: 2em;
-    padding: 20px;
+    padding: 50px;
 }
 
 .navigator{
@@ -18,6 +20,14 @@
     padding: 20px;
 }
 
+.button-nav{
+    background-color: $primary-color;
+    align-content: center;
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
 .about{
     background-color: $secondary-color;
 }
