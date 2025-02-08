@@ -8,30 +8,36 @@
   font-family: "Roboto";
   src: url("../assets/fonts/Roboto-Condensed.ttf");
 }
-.container {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 2fr 1fr 1fr 1fr 2fr;
-  grid-template-areas: "header" "aboutme" "myproject" "contactme" "footer";
-  font-family: "Roboto", sans-serif;
+@font-face {
+  font-family: "Roboto-thin";
+  src: url("../assets/fonts/Roboto-Light.ttf");
+}
+a {
+  text-decoration: none;
+  color: black;
 }
 
-.container-page {
+.container {
+  padding-top: 100px;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "header" "main-page" "footer";
+  grid-template-rows: 1fr 1fr 1fr 2fr;
+  grid-template-areas: "aboutme" "myproject" "contactme" "footer";
   font-family: "Roboto", sans-serif;
 }
 
 .header {
+  font-family: "Roboto", sans-serif;
   display: grid;
   grid-template-columns: 1fr 2fr;
   background-image: url("../assets/images/header.png");
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 2em;
-  padding: 50px;
+  padding: 20px 100px 100px 100px;
+  position: fixed;
+  width: 100%;
+  height: 100px;
 }
 
 .navigator {
@@ -39,11 +45,10 @@
   flex-wrap: wrap;
   justify-content: space-around;
   font-size: 1.1em;
-  padding: 20px;
 }
 
 .button-nav {
-  background-color: rgb(30, 115, 126);
+  background-color: rgba(83, 148, 142, 0.678);
   align-content: center;
   border: none;
   padding: 5px;
@@ -51,8 +56,54 @@
   border-radius: 5px;
 }
 
-.about {
-  background-color: rgba(83, 148, 142, 0.678);
+.presentation {
+  padding: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.presentation-text {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: 2.5em;
+  font-family: "Roboto-thin", sans-serif;
+  width: 50%;
+  padding: 20px 100px 20px 100px;
+}
+
+.presentation-image {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 50%;
+  padding: 20px 100px 20px 100px;
+}
+
+.main-page {
+  padding: 200px 150px 100px 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.main-page-text {
+  display: flex;
+  flex-direction: column;
+  font-size: 2em;
+  font-family: "Roboto-thin", sans-serif;
+  padding: 20px 100px 20px 100px;
+}
+
+.main-page-image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .myproject {

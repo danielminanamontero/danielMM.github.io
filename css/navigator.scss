@@ -1,0 +1,15 @@
+.navigator{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 1.1em;
+}
+
+.button-nav{
+    background-color: $secondary-color;
+    align-content: center;
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}

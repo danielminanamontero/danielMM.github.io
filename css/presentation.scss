@@ -1,0 +1,28 @@
+.presentation{
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.presentation-text{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 2.5em;
+    font-family: 'Roboto-thin', sans-serif;
+    width: 50%;
+    padding: 20px 100px 20px 100px;
+}
+
+.presentation-image{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 50%;
+    padding: 20px 100px 20px 100px;
+}

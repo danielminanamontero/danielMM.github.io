@@ -1,0 +1,20 @@
+.main-page{
+    padding: 200px 150px 100px 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main-page-text{
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+    font-family: 'Roboto-thin', sans-serif;
+    padding: 20px 100px 20px 100px;
+}
+
+.main-page-image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}

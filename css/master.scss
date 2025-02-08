@@ -1,37 +1,10 @@
 // Se importa el archivo de variables.scss y structure.scss
 @import 'structure.scss';
 @import 'variables.scss';
-
-.header{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    background-image: url('../assets/images/header.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-size: 2em;
-    padding: 50px;
-}
-
-.navigator{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    font-size: 1.1em;
-    padding: 20px;
-}
-
-.button-nav{
-    background-color: $primary-color;
-    align-content: center;
-    border: none;
-    padding: 5px;
-    margin: 5px;
-    border-radius: 5px;
-}
-
-.about{
-    background-color: $secondary-color;
-}
+@import 'header.scss';
+@import 'navigator.scss';
+@import 'presentation.scss';
+@import 'main-page.scss';
 
 .myproject {
     background-color: $tertiary-color;

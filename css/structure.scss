@@ -9,26 +9,25 @@
     src: url('../assets/fonts/Roboto-Condensed.ttf');
 }
 
+@font-face {
+    font-family: 'Roboto-thin';
+    src: url('../assets/fonts/Roboto-Light.ttf');
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
 .container{
+    padding-top: 100px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 2fr 1fr 1fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 2fr;
     grid-template-areas:
-    "header"
     "aboutme"
     "myproject" 
     "contactme"
-    "footer";
-    font-family: 'Roboto', sans-serif;
-}
-
-.container-page{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas:
-    "header"
-    "main-page"
     "footer";
     font-family: 'Roboto', sans-serif;
 }
