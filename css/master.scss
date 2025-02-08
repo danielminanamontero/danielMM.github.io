@@ -1,0 +1,41 @@
+// Se importa el archivo de variables.scss y structure.scss
+@import 'structure.scss';
+@import 'variables.scss';
+
+.header{
+    background-image: url('../assets/images/header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 2em;
+    padding: 20px;
+}
+
+.navigator{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 1.1em;
+    padding: 20px;
+}
+
+.about{
+    background-color: $secondary-color;
+}
+
+.myproject {
+    background-color: $tertiary-color;
+}
+
+.projects{
+    display: flex;
+    align-content: center;
+    text-align: center;
+}
+
+.contactme{
+    background-color: $primary-color;
+}
+
+.footer{
+    background-color: $secondary-color;
+}
