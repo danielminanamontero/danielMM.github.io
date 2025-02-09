@@ -1,18 +1,10 @@
-.header{
-    font-family: 'Roboto-thin', sans-serif;
+header{
     display: flex;
-    flex-direction: row;
-    background-image: url('../assets/images/header.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-size: 2em;
-    padding: 20px 150px 100px 150px;
+    flex-direction: column;
     position: fixed;
     width: 100%;
-    height: 100px;
+    background-color: $primary-color;
+    font-family: 'Roboto-thin', sans-serif;
+    font-size: 2.5em;
 }
 
-.header a{
-    color: white;
-    text-decoration: none;
-}
