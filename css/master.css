@@ -27,9 +27,9 @@ a {
 }
 
 .header {
-  font-family: "Roboto", sans-serif;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
+  font-family: "Roboto-thin", sans-serif;
+  display: flex;
+  flex-direction: row;
   background-image: url("../assets/images/header.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -40,20 +40,24 @@ a {
   height: 100px;
 }
 
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
 .navigator {
   display: flex;
   flex-wrap: wrap;
-  justify-items: left;
-  justify-content: space-around;
-  font-size: 1.1em;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 900px;
 }
 
 .button-nav {
-  background-color: rgba(83, 148, 142, 0.678);
-  align-content: center;
+  font-size: 1.1em;
   border: none;
   padding: 5px;
-  margin: 5px;
+  margin: 10px;
   border-radius: 5px;
 }
 

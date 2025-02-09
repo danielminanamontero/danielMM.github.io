@@ -1,7 +1,7 @@
 .header{
-    font-family: 'Roboto', sans-serif;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    font-family: 'Roboto-thin', sans-serif;
+    display: flex;
+    flex-direction: row;
     background-image: url('../assets/images/header.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,4 +10,9 @@
     position: fixed;
     width: 100%;
     height: 100px;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
 }
