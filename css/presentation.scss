@@ -1,11 +1,13 @@
 .presentation{
-    padding: 100px;
+    padding: 200px 150px 100px 150px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    color: $primary-color;
 }
 
 .presentation-text{
+    padding-left: 50px;
     display: flex;
     align-items: center;
     align-content: center;
@@ -13,16 +15,17 @@
     flex-wrap: wrap;
     font-size: 2.5em;
     font-family: 'Roboto-thin', sans-serif;
-    width: 50%;
-    padding: 20px 100px 20px 100px;
+    width: 70%;
 }
 
 .presentation-image{
     display: flex;
-    align-items: center;
-    align-content: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    width: 50%;
-    padding: 20px 100px 20px 100px;
+    width: 30%;
+    background-image: url('../assets/images/icono-camara-fotografica.png');
+    background-size: cover;
+    background-position: center;
+    background-image: no-repeat;
+    border-radius: 100px;
 }

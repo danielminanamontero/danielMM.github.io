@@ -1,0 +1,81 @@
+.myproject {
+    padding: 50px 150px 100px 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: $secondary-color;
+    color: $primary-color;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 125px;
+    align-content: center;
+    text-align: center;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.project-title{
+    font-size: 2em;
+    font-family: 'Roboto-thin', sans-serif;
+    width: 100%;
+    padding: 30px 10px 0px 10px;
+}
+
+.project-text{
+    font-size: 1.5em;
+    font-family: 'Roboto-thin', sans-serif;
+    padding: 200px 20px 20px 20px;
+    width: 100%;
+}
+
+.project-image-block1{
+    background-image: url('../assets/images/8.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.project-image-block2{
+    background-image: url('../assets/images/12.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.project-image-block3{
+    background-image: url('../assets/images/9.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.project-image-block4{
+    background-image: url('../assets/images/4.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.project-image-block5{
+    background-image: url('../assets/images/5.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.project-image-block6{
+    background-image: url('../assets/images/5.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

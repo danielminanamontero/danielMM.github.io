@@ -1,0 +1,42 @@
+.contactme{
+    background-color: $primary-color;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: $font-color-primary;
+    padding: 75px 150px 100px 150px;
+}
+
+.contactme-title{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 2.5em;
+    font-family: 'Roboto-thin', sans-serif;
+    width: 70%;
+    padding-bottom: 20px;
+    padding-right: 50px;
+}
+
+.contactme-text{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    flex-wrap: wrap;
+    font-size: 2.5em;
+    font-family: 'Roboto-thin', sans-serif;
+    width: 50%;
+    padding-right: 150px;
+}
+
+.contactme-image{
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    flex-wrap: wrap;
+    width: 50%;
+    background-image: url('../assets/images/3.png');
+    background-size: cover;
+    background-position: center;
+    background-image: no-repeat;
+}

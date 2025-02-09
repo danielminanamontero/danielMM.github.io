@@ -5,20 +5,8 @@
 @import 'navigator.scss';
 @import 'presentation.scss';
 @import 'main-page.scss';
-
-.myproject {
-    background-color: $tertiary-color;
-}
-
-.projects{
-    display: flex;
-    align-content: center;
-    text-align: center;
-}
-
-.contactme{
-    background-color: $primary-color;
-}
+@import 'myproject.scss';
+@import 'contactme.scss';
 
 .footer{
     background-color: $secondary-color;

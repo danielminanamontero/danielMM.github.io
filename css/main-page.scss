@@ -1,7 +1,12 @@
 .main-page{
-    padding: 200px 150px 100px 100px;
+    padding: 200px 150px 100px 150px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.main-page-title{
+    font-size: 3em;
+    font-family: 'Roboto-thin', sans-serif;
 }
 
 .main-page-text{
@@ -9,7 +14,6 @@
     flex-direction: column;
     font-size: 2em;
     font-family: 'Roboto-thin', sans-serif;
-    padding: 20px 100px 20px 100px;
 }
 
 .main-page-image{
