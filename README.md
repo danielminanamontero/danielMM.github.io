@@ -11,9 +11,22 @@ Plan de trabajo:
 
 ## Documentación del laboratorio
 
+## Aplicar tecnologías
+
+- Html
+- Css
+- Scss
+- Sas
+- Javascript
+
 ### OBJETIVO DEL LABORATORIO
 
 - Crear estructura sitio web portfolio personal.
+  - header
+    - nav
+  - main
+  - footer
+  - pages
 - Publicar estructura sitio web.
 - Crear documentación necesaria para una facil actualizadcion o reutilización.
 - Publicar en el perfil de Coursera Google.
