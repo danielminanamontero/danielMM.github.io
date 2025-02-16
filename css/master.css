@@ -24,19 +24,22 @@
 header {
   display: flex;
   flex-direction: column;
-  position: fixed;
-  width: 100%;
-  background-color: rgb(30, 115, 126);
-  font-family: "Roboto-thin", sans-serif;
-  font-size: 2.5em;
+  width: 20vh;
 }
 
 nav {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  font-family: "Roboto-thin", sans-serif;
   padding: 20px 150px 20px 150px;
+  position: fixed;
+  background-color: rgb(30, 115, 126);
+  width: 100%;
+}
+
+nav h1 {
+  font-size: 3em;
 }
 
 nav a {
@@ -51,16 +54,38 @@ nav a:hover {
 nav ul {
   display: flex;
   list-style-type: none;
+  font-size: 1.5em;
 }
 
 nav ul li {
   margin: 30px;
 }
 
+.menu-mobile {
+  display: none;
+}
+
 .selected {
   color: rgba(83, 148, 142, 0.678);
 }
 
+@media (max-width: 900px) {
+  nav {
+    padding: 5px 30px 5px 30px;
+  }
+  nav ul {
+    display: none;
+  }
+  nav h1 {
+    font-size: 1.5em;
+  }
+  .menu-mobile {
+    display: flex;
+  }
+  .nav-links-header {
+    display: none;
+  }
+}
 .presentation {
   padding: 200px 150px 100px 150px;
   display: flex;
